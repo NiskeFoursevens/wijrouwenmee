@@ -63,6 +63,6 @@ span.onclick = function() {
 }
 
 //when user scrolls, modal closes
-window.onscroll = function (e) {  
+/*window.onscroll = function (e) {
   modal.style.display = "none";
-} 
+} */
