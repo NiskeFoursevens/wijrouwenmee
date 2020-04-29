@@ -10,7 +10,7 @@ var modalImg = document.getElementById("img01");
 document.getElementById("img1").onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  facebookShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/1.jpeg");
+  facebookShare.setAttribute('href', "https://www.facebook.com/sharer/sharer.php?u=wijrouwenmee.be/images/cards/1.jpeg");
   twitterShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/1.jpeg");
   downloadLink.setAttribute('href', "/images/cards/1.jpeg");
 }
@@ -18,7 +18,7 @@ document.getElementById("img1").onclick = function(){
 document.getElementById("img2").onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  facebookShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/2.jpg");
+  facebookShare.setAttribute('href', "https://www.facebook.com/sharer/sharer.php?u=wijrouwenmee.be/images/cards/2.jpg");
   twitterShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/2.jpg");
   downloadLink.setAttribute('href', "/images/cards/2.jpg");
 }
@@ -26,7 +26,7 @@ document.getElementById("img2").onclick = function(){
 document.getElementById("img3").onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  facebookShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/3.jpg");
+  facebookShare.setAttribute('href', "https://www.facebook.com/sharer/sharer.php?u=wijrouwenmee.be/images/cards/3.jpg");
   twitterShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/3.jpg");
   downloadLink.setAttribute('href', "/images/cards/3.jpg");
 }
@@ -34,14 +34,14 @@ document.getElementById("img3").onclick = function(){
 document.getElementById("img4").onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  facebookShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/4.jpg");
+  facebookShare.setAttribute('href', "https://www.facebook.com/sharer/sharer.php?u=wijrouwenmee.be/images/cards/4.jpg");
   twitterShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/4.jpg");
   downloadLink.setAttribute('href', "/images/cards/4.jpg");
 }
 document.getElementById("img5").onclick = function(){
   modal.style.display = "block";
   modalImg.src = this.src;
-  facebookShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/5.jpg");
+  facebookShare.setAttribute('href', "https://www.facebook.com/sharer/sharer.php?u=wijrouwenmee.be/images/cards/5.jpg");
   twitterShare.setAttribute('href', "https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/5.jpg");
   downloadLink.setAttribute('href', "/images/cards/5.jpg");
 }
