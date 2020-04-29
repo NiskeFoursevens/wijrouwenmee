@@ -36,7 +36,7 @@
     <!-- Bootstrap core CSS -->
 
     <link href="./assets/css/style.css" rel="stylesheet">
-
+    <link href="./assets/css/cards.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800&display=swap" rel="stylesheet">
 </head>
 
@@ -308,7 +308,6 @@
 </section>
 
 <section id="troost" class="">
-
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <div class="col-md-6">
@@ -325,10 +324,33 @@
                     genegenheid zijn gegroeid, hoe deze persoon je leven heeft geraakt of beïnvloed. Het doet goed te
                     lezen dat je dierbare geliefd is en gewaardeerd wordt. Vermeld wat je bij de rouwende waardeert.
                     <br/><br/></p>
-                <!--h3 class="h5 text-dark">Stuur een online kaartje</h3>
+                <h3 class="h5 text-dark">Stuur een online kaartje</h3>
                 <p>
-                  Stuur je woorden van troost en medeleven via <a href="" class="text-links">dit kaartje</a>.
-                </p-->
+                  Stuur je woorden van troost en medeleven via één van deze kaartjes.
+                </p>
+                <section id="cards">
+                    <ul class="cards">
+                        <h4 class="none">e-cards</h4>
+                        <li><img id="img1" class="card" src="images/cards/1.jpeg"></li>
+                        <li><img id="img2" class="card" src="images/cards/2.jpg"></li>
+                        <li><img id="img3" class="card" src="images/cards/3.jpg"></li>
+                        <li><img id="img4" class="card" src="images/cards/4.jpg"></li>
+                        <li><img id="img5" class="card" src="images/cards/5.jpg"></li>
+                    </ul>
+
+                    <div id="modal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption">
+                            <h4>Deel deze kaart</h4>
+                            <ul id="cardSocialIcons">
+                                <li><a id="facebookShare" href="https://www.facebook.com/sharer/sharer.php?u=https%3A//wijrouwenmee.be/images/cards/2.jpg"><img width="50" alt="share on facebook" src="./assets/facebook.svg"></a></li>
+                                <li><a id="twitterShare" href="https://twitter.com/intent/tweet?text=https%3A//wijrouwenmee.be/images/cards/2.jpg"><img width="50" alt="share on facebook" src="./assets/twitter.svg"></a></li>
+                                <li><a id="downloadCard" download><img width="45" alt="download image" src="./assets/download.svg"></a></li>
+                            </ul>
+                        </div>
+                      </div>
+                </section>
                 <h3 class="h5 text-dark">Maak een troostdoos</h3>
                 <p>
                     Maak een troostdoos en bezorg die aan de familie.
@@ -680,6 +702,7 @@
 </script-->
 
 <!-- Matomo -->
+<script type="text/javascript" src="./assets/js/cards.js" />
 <script type="text/javascript">
     var _paq = window._paq || [];
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
