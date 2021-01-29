@@ -52,7 +52,8 @@ var span = document.getElementsByClassName("close")[0];
 //when user presses esc close modal
 document.onkeydown = function(evt) {
   evt = evt || window.event;
-  if (evt.keyCode == 27) {
+  var code = evt.keyCode || evt.code;
+  if (code == 27) {
     modal.style.display = "none";
   }
 };
